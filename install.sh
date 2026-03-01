@@ -34,7 +34,7 @@ function installation {
 		
 		ln -s "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
 		ln -s "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-		ln -s "$dir/pixora" "$HOME/.local/share/icons/pixora"
+		ln -s "$dir/icons" "$HOME/.local/share/icons/pixora"
 		
 		elif [ "$choice" = "2" ]; then
 			echo -e "\n⚠️ By choosing ${GREEN}Option 2${NC}, you are aware that, in order to ${RED}update the theme${NC},"
@@ -46,7 +46,7 @@ function installation {
 			
 			cp -r "$dir/pixelitos-dark" "$HOME/.local/share/icons/pixelitos-dark"
 			cp -r "$dir/pixelitos-light" "$HOME/.local/share/icons/pixelitos-light"
-			cp -r "$dir/pixora" "$HOME/.local/share/icons/pixora"
+			cp -r "$dir/icons" "$HOME/.local/share/icons/pixora"
 			
 			sleep 1
 			echo -e "\nYou are about to remove the directory ${RED}[ $dir ]${NC}."
